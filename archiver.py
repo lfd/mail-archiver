@@ -159,6 +159,9 @@ class PublicInbox:
         if author_name == '':
             author_name = author_email
 
+        if author_email == '':
+            author_email = 'UNKNOWN@UNKNOWN.COM'
+
         date = parse_date(mail['Date'])
         time = int(date.timestamp())
 
