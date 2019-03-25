@@ -246,14 +246,14 @@ def process_mail(f_mail):
 
     list_id = mail['list-id']
     if not list_id:
-        print('No list-id in %s' % filename)
+        #print('No list-id in %s' % filename)
         list_id = r_assorted
     else:
         list_id = list_id_regex.match(list_id).group(1)
 
     if header_is_yes(mail['x-no-archive']) or\
        header_is_yes(mail['x-list-administrivia']):
-        print('Found administrative mail')
+        #print('Found administrative mail')
         list_id = r_assorted
 
     if list_id not in public_inboxes:
