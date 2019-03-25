@@ -37,6 +37,7 @@ r_assorted = 'ASSORTED'
 
 list_id_regex = re.compile(r'.*<(.*)>.*', re.MULTILINE | re.DOTALL)
 via_regex = re.compile(r'(.+) via .+')
+imap_shorthand_regex = re.compile(r'(.+\..+)\..+')
 
 d_maildir = realpath(expanduser(d_maildir))
 ctn = {'cur', 'tmp', 'new'}
@@ -54,6 +55,10 @@ def find_dirs(dir):
         ret |= find_dirs(join(dir, subdir))
 
     return ret
+
+
+def imap_shorthand(filename):
+    return imap_shorthand_regex.match(filename).group(1)
 
 
 def parse_date(date):
@@ -217,8 +222,12 @@ for d_maildir in d_maildirs:
     print('Working on maildir %s' % d_maildir)
     for sub in ctn:
         dir = join(d_maildir, sub)
-        files = {basename(x) for x in glob.glob(join(dir, '*'))}
-        files = files - index
+        candidates = {basename(x) for x in glob.glob(join(dir, '*'))}
+        files = set()
+        for c in candidates:
+            if imap_shorthand(c) in index:
+                continue
+            files.add(c)
         print('  %u new files in %s' % (len(files), sub))
 
         for file in files:
@@ -261,7 +270,7 @@ def process_mail(f_mail):
         public_inboxes[list_id] = PublicInbox.create(join(d_public_inboxes, list_id))
 
     public_inboxes[list_id].insert(f_mail, mail)
-    index.add(basename(f_mail))
+    index.add(imap_shorthand(basename(f_mail)))
 
 
 if len(worklist) == 0:
@@ -274,5 +283,5 @@ for item in tqdm(worklist):
 
 print('Writing index')
 with open(f_index, 'w') as f:
-    for file in sorted(index):
-        f.write(file + '\n')
+    for shorthand in sorted(index):
+        f.write(shorthand + '\n')
