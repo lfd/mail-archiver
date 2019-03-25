@@ -216,6 +216,7 @@ for d_maildir in d_maildirs:
         dir = join(d_maildir, sub)
         files = {basename(x) for x in glob.glob(join(dir, '*'))}
         files = files - index
+        print('  %u new files in %s' % (len(files), sub))
 
         for file in files:
             filename = join(dir, file)
