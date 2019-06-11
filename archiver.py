@@ -71,7 +71,8 @@ def parse_date(date):
         try:
             ret = dateparser.parse(date)
         except Exception:
-            ret = datetime.date.fromtimestamp(0)
+            ret = datetime.datetime.combine(datetime.date.fromtimestamp(0),
+                                            datetime.datetime.min.time())
 
     if not ret.tzinfo:
         ret = pytz.utc.localize(ret)
@@ -241,7 +242,7 @@ for d_maildir in d_maildirs:
 
             hdr_date = mail['date']
             if hdr_date is None:
-                print('Warning, date not found for %s' % file)
+                print('Warning, date not found for %s. Assuming epoch.' % file)
 
             date = parse_date(hdr_date)
             worklist.append((date, filename))
