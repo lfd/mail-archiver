@@ -112,6 +112,13 @@ class PublicInbox:
     def __init__(self, d_repo):
         self.list_name = basename(d_repo)
         self.repo = pygit2.Repository(d_repo)
+        self.size = 0
+        if 'refs/heads/master' in self.repo.listall_references():
+            for _ in self.repo.walk(self.repo.head.target):
+                self.size += 1
+
+    def __len__(self):
+        return self.size
 
     @staticmethod
     def create(d_repo):
@@ -199,6 +206,8 @@ class PublicInbox:
 
         chash = self.repo.create_commit('refs/heads/master', author, committer,
                                         message, tree, parents)
+
+        self.size += 1
 
         return chash.hex
 
