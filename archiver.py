@@ -32,7 +32,7 @@ from tqdm import tqdm
 d_maildir = '~/Mail'
 d_public_inboxes = './archives'
 f_index = './index'
-shard_maxsize = 10000
+shard_maxsize = 350000
 
 r_assorted = 'ASSORTED'
 
