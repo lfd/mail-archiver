@@ -32,6 +32,7 @@ from tqdm import tqdm
 d_maildir = '~/Mail'
 d_public_inboxes = './archives'
 f_index = './index'
+shard_maxsize = 10000
 
 r_assorted = 'ASSORTED'
 
@@ -121,10 +122,12 @@ class PublicInbox:
         return self.size
 
     @staticmethod
-    def create(d_repo):
-        pygit2.init_repository(d_repo, bare=True)
+    def create(d_repo, shard):
+        print('Creating Public Inbox %s Shard %d' % (d_repo, shard))
+        directory = '%s.%d' % (d_repo, shard)
+        pygit2.init_repository(directory, bare=True)
 
-        return PublicInbox(d_repo)
+        return PublicInbox(directory)
 
     @staticmethod
     def get_list_post_address(mail):
@@ -216,7 +219,11 @@ d_maildirs = find_dirs(d_maildir)
 public_inboxes = dict()
 
 for d_public_inbox in glob.glob(join(d_public_inboxes, '*')):
-    public_inboxes[basename(d_public_inbox)] = PublicInbox(d_public_inbox)
+    inbox, shard = basename(d_public_inbox).rsplit('.', 1)
+    shard = int(shard)
+    if inbox not in public_inboxes:
+        public_inboxes[inbox] = dict()
+    public_inboxes[inbox][shard] = PublicInbox(d_public_inbox)
 
 if os.path.isfile(f_index):
     with open(f_index, 'r') as f:
@@ -272,14 +279,31 @@ def process_mail(f_mail):
 
     if header_is_yes(mail['x-no-archive']) or\
        header_is_yes(mail['x-list-administrivia']):
-        #print('Found administrative mail')
         list_id = r_assorted
 
-    if list_id not in public_inboxes:
-        print('Creating Public Inbox %s' % list_id)
-        public_inboxes[list_id] = PublicInbox.create(join(d_public_inboxes, list_id))
+    create_inbox = False
+    shard = None
 
-    public_inboxes[list_id].insert(f_mail, mail)
+    if list_id not in public_inboxes:
+        public_inboxes[list_id] = dict()
+        create_inbox = True
+    else:
+        shard = max(public_inboxes[list_id].keys())
+
+    if shard is not None:
+        public_inbox = public_inboxes[list_id][shard]
+        if len(public_inbox) >= shard_maxsize:
+            shard += 1
+            create_inbox = True
+    else:
+        shard = 0
+
+    if create_inbox:
+        public_inboxes[list_id][shard] = \
+            PublicInbox.create(join(d_public_inboxes, list_id), shard)
+        public_inbox = public_inboxes[list_id][shard]
+
+    public_inbox.insert(f_mail, mail)
     index.add(imap_shorthand(basename(f_mail)))
 
 
