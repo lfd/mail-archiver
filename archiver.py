@@ -183,7 +183,7 @@ class PublicInbox:
 
         offset = date.utcoffset()
         if offset:
-            offset = int(date.utcoffset().seconds / 60)
+            offset = int(offset.seconds / 60)
         else:
             offset = 0
 
