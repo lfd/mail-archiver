@@ -172,7 +172,8 @@ class PublicInbox:
             author_name = match.group(1)
             author_email = email.utils.parseaddr(mail['reply-to'])[1]
 
-        if author_name == '':
+        # Check if author name does not contain any non-special character
+        if author_name == '' or not any([x.isalpha() for x in author_name]):
             author_name = author_email
 
         if author_email == '':
