@@ -1,0 +1,567 @@
+[submodule "archives/xdp-newbies.vger.kernel.org.0"]
+	path = archives/xdp-newbies.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/xdp-newbies.vger.kernel.org.0.git
+[submodule "archives/alsa-devel.alsa-project.org.0"]
+	path = archives/alsa-devel.alsa-project.org.0
+	url = git@github.com:linux-mailinglist-archives/alsa-devel.alsa-project.org.0.git
+[submodule "archives/amd-gfx.lists.freedesktop.org.0"]
+	path = archives/amd-gfx.lists.freedesktop.org.0
+	url = git@github.com:linux-mailinglist-archives/amd-gfx.lists.freedesktop.org.0.git
+[submodule "archives/apparmor.lists.ubuntu.com.0"]
+	path = archives/apparmor.lists.ubuntu.com.0
+	url = git@github.com:linux-mailinglist-archives/apparmor.lists.ubuntu.com.0.git
+[submodule "archives/ath10k.lists.infradead.org.0"]
+	path = archives/ath10k.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/ath10k.lists.infradead.org.0.git
+[submodule "archives/autofs.vger.kernel.org.0"]
+	path = archives/autofs.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/autofs.vger.kernel.org.0.git
+[submodule "archives/b43-dev.lists.infradead.org.0"]
+	path = archives/b43-dev.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/b43-dev.lists.infradead.org.0.git
+[submodule "archives/b.a.t.m.a.n.lists.open-mesh.org.0"]
+	path = archives/b.a.t.m.a.n.lists.open-mesh.org.0
+	url = git@github.com:linux-mailinglist-archives/b.a.t.m.a.n.lists.open-mesh.org.0.git
+[submodule "archives/blinux-list.redhat.com.0"]
+	path = archives/blinux-list.redhat.com.0
+	url = git@github.com:linux-mailinglist-archives/blinux-list.redhat.com.0.git
+[submodule "archives/bpf.vger.kernel.org.0"]
+	path = archives/bpf.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/bpf.vger.kernel.org.0.git
+[submodule "archives/bridge.lists.linux-foundation.org.0"]
+	path = archives/bridge.lists.linux-foundation.org.0
+	url = git@github.com:linux-mailinglist-archives/bridge.lists.linux-foundation.org.0.git
+[submodule "archives/cake.lists.bufferbloat.net.0"]
+	path = archives/cake.lists.bufferbloat.net.0
+	url = git@github.com:linux-mailinglist-archives/cake.lists.bufferbloat.net.0.git
+[submodule "archives/ceph-devel.vger.kernel.org.0"]
+	path = archives/ceph-devel.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/ceph-devel.vger.kernel.org.0.git
+[submodule "archives/cgroups.vger.kernel.org.0"]
+	path = archives/cgroups.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/cgroups.vger.kernel.org.0.git
+[submodule "archives/cluster-devel.redhat.com.0"]
+	path = archives/cluster-devel.redhat.com.0
+	url = git@github.com:linux-mailinglist-archives/cluster-devel.redhat.com.0.git
+[submodule "archives/cocci.systeme.lip6.fr.0"]
+	path = archives/cocci.systeme.lip6.fr.0
+	url = git@github.com:linux-mailinglist-archives/cocci.systeme.lip6.fr.0.git
+[submodule "archives/dccp.vger.kernel.org.0"]
+	path = archives/dccp.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/dccp.vger.kernel.org.0.git
+[submodule "archives/devel.acpica.org.0"]
+	path = archives/devel.acpica.org.0
+	url = git@github.com:linux-mailinglist-archives/devel.acpica.org.0.git
+[submodule "archives/devel.lists.orangefs.org.0"]
+	path = archives/devel.lists.orangefs.org.0
+	url = git@github.com:linux-mailinglist-archives/devel.lists.orangefs.org.0.git
+[submodule "archives/devicetree.vger.kernel.org.0"]
+	path = archives/devicetree.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/devicetree.vger.kernel.org.0.git
+[submodule "archives/dmaengine.vger.kernel.org.0"]
+	path = archives/dmaengine.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/dmaengine.vger.kernel.org.0.git
+[submodule "archives/dm-devel.redhat.com.0"]
+	path = archives/dm-devel.redhat.com.0
+	url = git@github.com:linux-mailinglist-archives/dm-devel.redhat.com.0.git
+[submodule "archives/drbd-dev.lists.linbit.com.0"]
+	path = archives/drbd-dev.lists.linbit.com.0
+	url = git@github.com:linux-mailinglist-archives/drbd-dev.lists.linbit.com.0.git
+[submodule "archives/dri-devel.lists.freedesktop.org.0"]
+	path = archives/dri-devel.lists.freedesktop.org.0
+	url = git@github.com:linux-mailinglist-archives/dri-devel.lists.freedesktop.org.0.git
+[submodule "archives/driverdev-devel.linuxdriverproject.org.0"]
+	path = archives/driverdev-devel.linuxdriverproject.org.0
+	url = git@github.com:linux-mailinglist-archives/driverdev-devel.linuxdriverproject.org.0.git
+[submodule "archives/ecryptfs.vger.kernel.org.0"]
+	path = archives/ecryptfs.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/ecryptfs.vger.kernel.org.0.git
+[submodule "archives/etnaviv.lists.freedesktop.org.0"]
+	path = archives/etnaviv.lists.freedesktop.org.0
+	url = git@github.com:linux-mailinglist-archives/etnaviv.lists.freedesktop.org.0.git
+[submodule "archives/freedreno.lists.freedesktop.org.0"]
+	path = archives/freedreno.lists.freedesktop.org.0
+	url = git@github.com:linux-mailinglist-archives/freedreno.lists.freedesktop.org.0.git
+[submodule "archives/greybus-dev.lists.linaro.org.0"]
+	path = archives/greybus-dev.lists.linaro.org.0
+	url = git@github.com:linux-mailinglist-archives/greybus-dev.lists.linaro.org.0.git
+[submodule "archives/ibm-acpi-devel.lists.sourceforge.net.0"]
+	path = archives/ibm-acpi-devel.lists.sourceforge.net.0
+	url = git@github.com:linux-mailinglist-archives/ibm-acpi-devel.lists.sourceforge.net.0.git
+[submodule "archives/industrypack-devel.lists.sourceforge.net.0"]
+	path = archives/industrypack-devel.lists.sourceforge.net.0
+	url = git@github.com:linux-mailinglist-archives/industrypack-devel.lists.sourceforge.net.0.git
+[submodule "archives/intel-gfx.lists.freedesktop.org.0"]
+	path = archives/intel-gfx.lists.freedesktop.org.0
+	url = git@github.com:linux-mailinglist-archives/intel-gfx.lists.freedesktop.org.0.git
+[submodule "archives/intel-gvt-dev.lists.freedesktop.org.0"]
+	path = archives/intel-gvt-dev.lists.freedesktop.org.0
+	url = git@github.com:linux-mailinglist-archives/intel-gvt-dev.lists.freedesktop.org.0.git
+[submodule "archives/intel-wired-lan.osuosl.org.0"]
+	path = archives/intel-wired-lan.osuosl.org.0
+	url = git@github.com:linux-mailinglist-archives/intel-wired-lan.osuosl.org.0.git
+[submodule "archives/iommu.lists.linux-foundation.org.0"]
+	path = archives/iommu.lists.linux-foundation.org.0
+	url = git@github.com:linux-mailinglist-archives/iommu.lists.linux-foundation.org.0.git
+[submodule "archives/isdn4linux.listserv.isdn4linux.de.0"]
+	path = archives/isdn4linux.listserv.isdn4linux.de.0
+	url = git@github.com:linux-mailinglist-archives/isdn4linux.listserv.isdn4linux.de.0.git
+[submodule "archives/jailhouse-dev.googlegroups.com.0"]
+	path = archives/jailhouse-dev.googlegroups.com.0
+	url = git@github.com:linux-mailinglist-archives/jailhouse-dev.googlegroups.com.0.git
+[submodule "archives/jfs-discussion.lists.sourceforge.net.0"]
+	path = archives/jfs-discussion.lists.sourceforge.net.0
+	url = git@github.com:linux-mailinglist-archives/jfs-discussion.lists.sourceforge.net.0.git
+[submodule "archives/kasan-dev.googlegroups.com.0"]
+	path = archives/kasan-dev.googlegroups.com.0
+	url = git@github.com:linux-mailinglist-archives/kasan-dev.googlegroups.com.0.git
+[submodule "archives/kernel-hardening.lists.openwall.com.0"]
+	path = archives/kernel-hardening.lists.openwall.com.0
+	url = git@github.com:linux-mailinglist-archives/kernel-hardening.lists.openwall.com.0.git
+[submodule "archives/kernel-janitors.vger.kernel.org.0"]
+	path = archives/kernel-janitors.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/kernel-janitors.vger.kernel.org.0.git
+[submodule "archives/kexec.lists.infradead.org.0"]
+	path = archives/kexec.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/kexec.lists.infradead.org.0.git
+[submodule "archives/keyrings.vger.kernel.org.0"]
+	path = archives/keyrings.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/keyrings.vger.kernel.org.0.git
+[submodule "archives/kgdb-bugreport.lists.sourceforge.net.0"]
+	path = archives/kgdb-bugreport.lists.sourceforge.net.0
+	url = git@github.com:linux-mailinglist-archives/kgdb-bugreport.lists.sourceforge.net.0.git
+[submodule "archives/ksummit-discuss.lists.linuxfoundation.org.0"]
+	path = archives/ksummit-discuss.lists.linuxfoundation.org.0
+	url = git@github.com:linux-mailinglist-archives/ksummit-discuss.lists.linuxfoundation.org.0.git
+[submodule "archives/kvmarm.lists.cs.columbia.edu.0"]
+	path = archives/kvmarm.lists.cs.columbia.edu.0
+	url = git@github.com:linux-mailinglist-archives/kvmarm.lists.cs.columbia.edu.0.git
+[submodule "archives/kvm-ppc.vger.kernel.org.0"]
+	path = archives/kvm-ppc.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/kvm-ppc.vger.kernel.org.0.git
+[submodule "archives/kvm.vger.kernel.org.0"]
+	path = archives/kvm.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/kvm.vger.kernel.org.0.git
+[submodule "archives/libertas-dev.lists.infradead.org.0"]
+	path = archives/libertas-dev.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/libertas-dev.lists.infradead.org.0.git
+[submodule "archives/linaro-mm-sig.lists.linaro.org.0"]
+	path = archives/linaro-mm-sig.lists.linaro.org.0
+	url = git@github.com:linux-mailinglist-archives/linaro-mm-sig.lists.linaro.org.0.git
+[submodule "archives/linux1394-devel.lists.sourceforge.net.0"]
+	path = archives/linux1394-devel.lists.sourceforge.net.0
+	url = git@github.com:linux-mailinglist-archives/linux1394-devel.lists.sourceforge.net.0.git
+[submodule "archives/linux-acpi.vger.kernel.org.0"]
+	path = archives/linux-acpi.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-acpi.vger.kernel.org.0.git
+[submodule "archives/linux-afs.lists.infradead.org.0"]
+	path = archives/linux-afs.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-afs.lists.infradead.org.0.git
+[submodule "archives/linux-alpha.vger.kernel.org.0"]
+	path = archives/linux-alpha.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-alpha.vger.kernel.org.0.git
+[submodule "archives/linux-amlogic.lists.infradead.org.0"]
+	path = archives/linux-amlogic.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-amlogic.lists.infradead.org.0.git
+[submodule "archives/linux-api.vger.kernel.org.0"]
+	path = archives/linux-api.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-api.vger.kernel.org.0.git
+[submodule "archives/linux-arch.vger.kernel.org.0"]
+	path = archives/linux-arch.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-arch.vger.kernel.org.0.git
+[submodule "archives/linux-arm-kernel.lists.infradead.org.0"]
+	path = archives/linux-arm-kernel.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-arm-kernel.lists.infradead.org.0.git
+[submodule "archives/linux-arm-msm.vger.kernel.org.0"]
+	path = archives/linux-arm-msm.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-arm-msm.vger.kernel.org.0.git
+[submodule "archives/linux-aspeed.lists.ozlabs.org.0"]
+	path = archives/linux-aspeed.lists.ozlabs.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-aspeed.lists.ozlabs.org.0.git
+[submodule "archives/linux-audit.redhat.com.0"]
+	path = archives/linux-audit.redhat.com.0
+	url = git@github.com:linux-mailinglist-archives/linux-audit.redhat.com.0.git
+[submodule "archives/linux-bcache.vger.kernel.org.0"]
+	path = archives/linux-bcache.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-bcache.vger.kernel.org.0.git
+[submodule "archives/linux-block.vger.kernel.org.0"]
+	path = archives/linux-block.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-block.vger.kernel.org.0.git
+[submodule "archives/linux-bluetooth.vger.kernel.org.0"]
+	path = archives/linux-bluetooth.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-bluetooth.vger.kernel.org.0.git
+[submodule "archives/linux-btrfs.vger.kernel.org.0"]
+	path = archives/linux-btrfs.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-btrfs.vger.kernel.org.0.git
+[submodule "archives/linux-cachefs.redhat.com.0"]
+	path = archives/linux-cachefs.redhat.com.0
+	url = git@github.com:linux-mailinglist-archives/linux-cachefs.redhat.com.0.git
+[submodule "archives/linux-can.vger.kernel.org.0"]
+	path = archives/linux-can.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-can.vger.kernel.org.0.git
+[submodule "archives/linux-cifs.vger.kernel.org.0"]
+	path = archives/linux-cifs.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-cifs.vger.kernel.org.0.git
+[submodule "archives/linux-clk.vger.kernel.org.0"]
+	path = archives/linux-clk.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-clk.vger.kernel.org.0.git
+[submodule "archives/linux-crypto.vger.kernel.org.0"]
+	path = archives/linux-crypto.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-crypto.vger.kernel.org.0.git
+[submodule "archives/linux-doc.vger.kernel.org.0"]
+	path = archives/linux-doc.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-doc.vger.kernel.org.0.git
+[submodule "archives/linux-edac.vger.kernel.org.0"]
+	path = archives/linux-edac.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-edac.vger.kernel.org.0.git
+[submodule "archives/linux-efi.vger.kernel.org.0"]
+	path = archives/linux-efi.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-efi.vger.kernel.org.0.git
+[submodule "archives/linux-embedded.vger.kernel.org.0"]
+	path = archives/linux-embedded.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-embedded.vger.kernel.org.0.git
+[submodule "archives/linux-erofs.lists.ozlabs.org.0"]
+	path = archives/linux-erofs.lists.ozlabs.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-erofs.lists.ozlabs.org.0.git
+[submodule "archives/linux-ext4.vger.kernel.org.0"]
+	path = archives/linux-ext4.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-ext4.vger.kernel.org.0.git
+[submodule "archives/linux-f2fs-devel.lists.sourceforge.net.0"]
+	path = archives/linux-f2fs-devel.lists.sourceforge.net.0
+	url = git@github.com:linux-mailinglist-archives/linux-f2fs-devel.lists.sourceforge.net.0.git
+[submodule "archives/linux-fbdev.vger.kernel.org.0"]
+	path = archives/linux-fbdev.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-fbdev.vger.kernel.org.0.git
+[submodule "archives/linux-fpga.vger.kernel.org.0"]
+	path = archives/linux-fpga.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-fpga.vger.kernel.org.0.git
+[submodule "archives/linux-fscrypt.vger.kernel.org.0"]
+	path = archives/linux-fscrypt.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-fscrypt.vger.kernel.org.0.git
+[submodule "archives/linux-fsdevel.vger.kernel.org.0"]
+	path = archives/linux-fsdevel.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-fsdevel.vger.kernel.org.0.git
+[submodule "archives/linux-gpio.vger.kernel.org.0"]
+	path = archives/linux-gpio.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-gpio.vger.kernel.org.0.git
+[submodule "archives/linux-hams.vger.kernel.org.0"]
+	path = archives/linux-hams.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-hams.vger.kernel.org.0.git
+[submodule "archives/linux-hexagon.vger.kernel.org.0"]
+	path = archives/linux-hexagon.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-hexagon.vger.kernel.org.0.git
+[submodule "archives/linux-hwmon.vger.kernel.org.0"]
+	path = archives/linux-hwmon.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-hwmon.vger.kernel.org.0.git
+[submodule "archives/linux-hyperv.vger.kernel.org.0"]
+	path = archives/linux-hyperv.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-hyperv.vger.kernel.org.0.git
+[submodule "archives/linux-i2c.vger.kernel.org.0"]
+	path = archives/linux-i2c.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-i2c.vger.kernel.org.0.git
+[submodule "archives/linux-i3c.lists.infradead.org.0"]
+	path = archives/linux-i3c.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-i3c.lists.infradead.org.0.git
+[submodule "archives/linux-ia64.vger.kernel.org.0"]
+	path = archives/linux-ia64.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-ia64.vger.kernel.org.0.git
+[submodule "archives/linux-ide.vger.kernel.org.0"]
+	path = archives/linux-ide.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-ide.vger.kernel.org.0.git
+[submodule "archives/linux-iio.vger.kernel.org.0"]
+	path = archives/linux-iio.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-iio.vger.kernel.org.0.git
+[submodule "archives/linux-input.vger.kernel.org.0"]
+	path = archives/linux-input.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-input.vger.kernel.org.0.git
+[submodule "archives/linux-integrity.vger.kernel.org.0"]
+	path = archives/linux-integrity.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-integrity.vger.kernel.org.0.git
+[submodule "archives/linux-kbuild.vger.kernel.org.0"]
+	path = archives/linux-kbuild.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-kbuild.vger.kernel.org.0.git
+[submodule "archives/linux-kernel.vger.kernel.org.0"]
+	path = archives/linux-kernel.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-kernel.vger.kernel.org.0.git
+[submodule "archives/linux-kselftest.vger.kernel.org.0"]
+	path = archives/linux-kselftest.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-kselftest.vger.kernel.org.0.git
+[submodule "archives/linux-leds.vger.kernel.org.0"]
+	path = archives/linux-leds.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-leds.vger.kernel.org.0.git
+[submodule "archives/linux-man.vger.kernel.org.0"]
+	path = archives/linux-man.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-man.vger.kernel.org.0.git
+[submodule "archives/linux-mediatek.lists.infradead.org.0"]
+	path = archives/linux-mediatek.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-mediatek.lists.infradead.org.0.git
+[submodule "archives/linux-media.vger.kernel.org.0"]
+	path = archives/linux-media.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-media.vger.kernel.org.0.git
+[submodule "archives/linux-mips.vger.kernel.org.0"]
+	path = archives/linux-mips.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-mips.vger.kernel.org.0.git
+[submodule "archives/linux-mmc.vger.kernel.org.0"]
+	path = archives/linux-mmc.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-mmc.vger.kernel.org.0.git
+[submodule "archives/linux-mtd.lists.infradead.org.0"]
+	path = archives/linux-mtd.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-mtd.lists.infradead.org.0.git
+[submodule "archives/linux-nfc.lists.01.org.0"]
+	path = archives/linux-nfc.lists.01.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-nfc.lists.01.org.0.git
+[submodule "archives/linux-nfs.vger.kernel.org.0"]
+	path = archives/linux-nfs.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-nfs.vger.kernel.org.0.git
+[submodule "archives/linux-nilfs.vger.kernel.org.0"]
+	path = archives/linux-nilfs.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-nilfs.vger.kernel.org.0.git
+[submodule "archives/linux-ntb.googlegroups.com.0"]
+	path = archives/linux-ntb.googlegroups.com.0
+	url = git@github.com:linux-mailinglist-archives/linux-ntb.googlegroups.com.0.git
+[submodule "archives/linux-ntfs-dev.lists.sourceforge.net.0"]
+	path = archives/linux-ntfs-dev.lists.sourceforge.net.0
+	url = git@github.com:linux-mailinglist-archives/linux-ntfs-dev.lists.sourceforge.net.0.git
+[submodule "archives/linux-nvdimm.lists.01.org.0"]
+	path = archives/linux-nvdimm.lists.01.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-nvdimm.lists.01.org.0.git
+[submodule "archives/linux-nvme.lists.infradead.org.0"]
+	path = archives/linux-nvme.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-nvme.lists.infradead.org.0.git
+[submodule "archives/linux-omap.vger.kernel.org.0"]
+	path = archives/linux-omap.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-omap.vger.kernel.org.0.git
+[submodule "archives/linux-oxnas.groups.io.0"]
+	path = archives/linux-oxnas.groups.io.0
+	url = git@github.com:linux-mailinglist-archives/linux-oxnas.groups.io.0.git
+[submodule "archives/linux-parisc.vger.kernel.org.0"]
+	path = archives/linux-parisc.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-parisc.vger.kernel.org.0.git
+[submodule "archives/linux-parport.lists.infradead.org.0"]
+	path = archives/linux-parport.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-parport.lists.infradead.org.0.git
+[submodule "archives/linux-pci.vger.kernel.org.0"]
+	path = archives/linux-pci.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-pci.vger.kernel.org.0.git
+[submodule "archives/linux-pm.vger.kernel.org.0"]
+	path = archives/linux-pm.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-pm.vger.kernel.org.0.git
+[submodule "archives/linuxppc-dev.lists.ozlabs.org.0"]
+	path = archives/linuxppc-dev.lists.ozlabs.org.0
+	url = git@github.com:linux-mailinglist-archives/linuxppc-dev.lists.ozlabs.org.0.git
+[submodule "archives/linuxppc-users.lists.ozlabs.org.0"]
+	path = archives/linuxppc-users.lists.ozlabs.org.0
+	url = git@github.com:linux-mailinglist-archives/linuxppc-users.lists.ozlabs.org.0.git
+[submodule "archives/linux-ppp.vger.kernel.org.0"]
+	path = archives/linux-ppp.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-ppp.vger.kernel.org.0.git
+[submodule "archives/linux-pwm.vger.kernel.org.0"]
+	path = archives/linux-pwm.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-pwm.vger.kernel.org.0.git
+[submodule "archives/linux-raid.vger.kernel.org.0"]
+	path = archives/linux-raid.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-raid.vger.kernel.org.0.git
+[submodule "archives/linux-rdma.vger.kernel.org.0"]
+	path = archives/linux-rdma.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-rdma.vger.kernel.org.0.git
+[submodule "archives/linux-remoteproc.vger.kernel.org.0"]
+	path = archives/linux-remoteproc.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-remoteproc.vger.kernel.org.0.git
+[submodule "archives/linux-renesas-soc.vger.kernel.org.0"]
+	path = archives/linux-renesas-soc.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-renesas-soc.vger.kernel.org.0.git
+[submodule "archives/linux-riscv.lists.infradead.org.0"]
+	path = archives/linux-riscv.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-riscv.lists.infradead.org.0.git
+[submodule "archives/linux-rockchip.lists.infradead.org.0"]
+	path = archives/linux-rockchip.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-rockchip.lists.infradead.org.0.git
+[submodule "archives/linux-rpi-kernel.lists.infradead.org.0"]
+	path = archives/linux-rpi-kernel.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-rpi-kernel.lists.infradead.org.0.git
+[submodule "archives/linux-rtc.vger.kernel.org.0"]
+	path = archives/linux-rtc.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-rtc.vger.kernel.org.0.git
+[submodule "archives/linux-s390.vger.kernel.org.0"]
+	path = archives/linux-s390.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-s390.vger.kernel.org.0.git
+[submodule "archives/linux-samsung-soc.vger.kernel.org.0"]
+	path = archives/linux-samsung-soc.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-samsung-soc.vger.kernel.org.0.git
+[submodule "archives/linux-scsi.vger.kernel.org.0"]
+	path = archives/linux-scsi.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-scsi.vger.kernel.org.0.git
+[submodule "archives/linux-sctp.vger.kernel.org.0"]
+	path = archives/linux-sctp.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-sctp.vger.kernel.org.0.git
+[submodule "archives/linux-security-module.vger.kernel.org.0"]
+	path = archives/linux-security-module.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-security-module.vger.kernel.org.0.git
+[submodule "archives/linux-serial.vger.kernel.org.0"]
+	path = archives/linux-serial.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-serial.vger.kernel.org.0.git
+[submodule "archives/linux-sh.vger.kernel.org.0"]
+	path = archives/linux-sh.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-sh.vger.kernel.org.0.git
+[submodule "archives/linux-snps-arc.lists.infradead.org.0"]
+	path = archives/linux-snps-arc.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-snps-arc.lists.infradead.org.0.git
+[submodule "archives/linux-sparse.vger.kernel.org.0"]
+	path = archives/linux-sparse.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-sparse.vger.kernel.org.0.git
+[submodule "archives/linux-spi.vger.kernel.org.0"]
+	path = archives/linux-spi.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-spi.vger.kernel.org.0.git
+[submodule "archives/linux-stm32.st-md-mailman.stormreply.com.0"]
+	path = archives/linux-stm32.st-md-mailman.stormreply.com.0
+	url = git@github.com:linux-mailinglist-archives/linux-stm32.st-md-mailman.stormreply.com.0.git
+[submodule "archives/linux-tegra.vger.kernel.org.0"]
+	path = archives/linux-tegra.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-tegra.vger.kernel.org.0.git
+[submodule "archives/linux-um.lists.infradead.org.0"]
+	path = archives/linux-um.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-um.lists.infradead.org.0.git
+[submodule "archives/linux-unionfs.vger.kernel.org.0"]
+	path = archives/linux-unionfs.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-unionfs.vger.kernel.org.0.git
+[submodule "archives/linux-unisoc.lists.infradead.org.0"]
+	path = archives/linux-unisoc.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-unisoc.lists.infradead.org.0.git
+[submodule "archives/linux-usb.vger.kernel.org.0"]
+	path = archives/linux-usb.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-usb.vger.kernel.org.0.git
+[submodule "archives/linux-uvc-devel.lists.sourceforge.net.0"]
+	path = archives/linux-uvc-devel.lists.sourceforge.net.0
+	url = git@github.com:linux-mailinglist-archives/linux-uvc-devel.lists.sourceforge.net.0.git
+[submodule "archives/linux-watchdog.vger.kernel.org.0"]
+	path = archives/linux-watchdog.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-watchdog.vger.kernel.org.0.git
+[submodule "archives/linux-wireless.vger.kernel.org.0"]
+	path = archives/linux-wireless.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-wireless.vger.kernel.org.0.git
+[submodule "archives/linux-wpan.vger.kernel.org.0"]
+	path = archives/linux-wpan.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-wpan.vger.kernel.org.0.git
+[submodule "archives/linux-xfs.vger.kernel.org.0"]
+	path = archives/linux-xfs.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-xfs.vger.kernel.org.0.git
+[submodule "archives/linux-xtensa.linux-xtensa.org.0"]
+	path = archives/linux-xtensa.linux-xtensa.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-xtensa.linux-xtensa.org.0.git
+[submodule "archives/live-patching.vger.kernel.org.0"]
+	path = archives/live-patching.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/live-patching.vger.kernel.org.0.git
+[submodule "archives/ltp.lists.linux.it.0"]
+	path = archives/ltp.lists.linux.it.0
+	url = git@github.com:linux-mailinglist-archives/ltp.lists.linux.it.0.git
+[submodule "archives/lvs-devel.vger.kernel.org.0"]
+	path = archives/lvs-devel.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/lvs-devel.vger.kernel.org.0.git
+[submodule "archives/mjpeg-users.lists.sourceforge.net.0"]
+	path = archives/mjpeg-users.lists.sourceforge.net.0
+	url = git@github.com:linux-mailinglist-archives/mjpeg-users.lists.sourceforge.net.0.git
+[submodule "archives/nbd.other.debian.org.0"]
+	path = archives/nbd.other.debian.org.0
+	url = git@github.com:linux-mailinglist-archives/nbd.other.debian.org.0.git
+[submodule "archives/netdev.vger.kernel.org.0"]
+	path = archives/netdev.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/netdev.vger.kernel.org.0.git
+[submodule "archives/netem.lists.linux-foundation.org.0"]
+	path = archives/netem.lists.linux-foundation.org.0
+	url = git@github.com:linux-mailinglist-archives/netem.lists.linux-foundation.org.0.git
+[submodule "archives/netfilter-devel.vger.kernel.org.0"]
+	path = archives/netfilter-devel.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/netfilter-devel.vger.kernel.org.0.git
+[submodule "archives/nouveau.lists.freedesktop.org.0"]
+	path = archives/nouveau.lists.freedesktop.org.0
+	url = git@github.com:linux-mailinglist-archives/nouveau.lists.freedesktop.org.0.git
+[submodule "archives/openbmc.lists.ozlabs.org.0"]
+	path = archives/openbmc.lists.ozlabs.org.0
+	url = git@github.com:linux-mailinglist-archives/openbmc.lists.ozlabs.org.0.git
+[submodule "archives/openipmi-developer.lists.sourceforge.net.0"]
+	path = archives/openipmi-developer.lists.sourceforge.net.0
+	url = git@github.com:linux-mailinglist-archives/openipmi-developer.lists.sourceforge.net.0.git
+[submodule "archives/open-iscsi.googlegroups.com.0"]
+	path = archives/open-iscsi.googlegroups.com.0
+	url = git@github.com:linux-mailinglist-archives/open-iscsi.googlegroups.com.0.git
+[submodule "archives/openrisc.lists.librecores.org.0"]
+	path = archives/openrisc.lists.librecores.org.0
+	url = git@github.com:linux-mailinglist-archives/openrisc.lists.librecores.org.0.git
+[submodule "archives/openwrt-devel.lists.openwrt.org.0"]
+	path = archives/openwrt-devel.lists.openwrt.org.0
+	url = git@github.com:linux-mailinglist-archives/openwrt-devel.lists.openwrt.org.0.git
+[submodule "archives/oprofile-list.lists.sourceforge.net.0"]
+	path = archives/oprofile-list.lists.sourceforge.net.0
+	url = git@github.com:linux-mailinglist-archives/oprofile-list.lists.sourceforge.net.0.git
+[submodule "archives/osmocom-net-gprs.lists.osmocom.org.0"]
+	path = archives/osmocom-net-gprs.lists.osmocom.org.0
+	url = git@github.com:linux-mailinglist-archives/osmocom-net-gprs.lists.osmocom.org.0.git
+[submodule "archives/osst-users.lists.sourceforge.net.0"]
+	path = archives/osst-users.lists.sourceforge.net.0
+	url = git@github.com:linux-mailinglist-archives/osst-users.lists.sourceforge.net.0.git
+[submodule "archives/platform-driver-x86.vger.kernel.org.0"]
+	path = archives/platform-driver-x86.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/platform-driver-x86.vger.kernel.org.0.git
+[submodule "archives/qemu-devel.nongnu.org.0"]
+	path = archives/qemu-devel.nongnu.org.0
+	url = git@github.com:linux-mailinglist-archives/qemu-devel.nongnu.org.0.git
+[submodule "archives/reiserfs-devel.vger.kernel.org.0"]
+	path = archives/reiserfs-devel.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/reiserfs-devel.vger.kernel.org.0.git
+[submodule "archives/samba-technical.lists.samba.org.0"]
+	path = archives/samba-technical.lists.samba.org.0
+	url = git@github.com:linux-mailinglist-archives/samba-technical.lists.samba.org.0.git
+[submodule "archives/selinux.vger.kernel.org.0"]
+	path = archives/selinux.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/selinux.vger.kernel.org.0.git
+[submodule "archives/sparclinux.vger.kernel.org.0"]
+	path = archives/sparclinux.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/sparclinux.vger.kernel.org.0.git
+[submodule "archives/speakup.linux-speakup.org.0"]
+	path = archives/speakup.linux-speakup.org.0
+	url = git@github.com:linux-mailinglist-archives/speakup.linux-speakup.org.0.git
+[submodule "archives/spice-devel.lists.freedesktop.org.0"]
+	path = archives/spice-devel.lists.freedesktop.org.0
+	url = git@github.com:linux-mailinglist-archives/spice-devel.lists.freedesktop.org.0.git
+[submodule "archives/squashfs-devel.lists.sourceforge.net.0"]
+	path = archives/squashfs-devel.lists.sourceforge.net.0
+	url = git@github.com:linux-mailinglist-archives/squashfs-devel.lists.sourceforge.net.0.git
+[submodule "archives/stable.vger.kernel.org.0"]
+	path = archives/stable.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/stable.vger.kernel.org.0.git
+[submodule "archives/target-devel.vger.kernel.org.0"]
+	path = archives/target-devel.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/target-devel.vger.kernel.org.0.git
+[submodule "archives/tboot-devel.lists.sourceforge.net.0"]
+	path = archives/tboot-devel.lists.sourceforge.net.0
+	url = git@github.com:linux-mailinglist-archives/tboot-devel.lists.sourceforge.net.0.git
+[submodule "archives/tipc-discussion.lists.sourceforge.net.0"]
+	path = archives/tipc-discussion.lists.sourceforge.net.0
+	url = git@github.com:linux-mailinglist-archives/tipc-discussion.lists.sourceforge.net.0.git
+[submodule "archives/tomoyo-users-en.lists.osdn.me.0"]
+	path = archives/tomoyo-users-en.lists.osdn.me.0
+	url = git@github.com:linux-mailinglist-archives/tomoyo-users-en.lists.osdn.me.0.git
+[submodule "archives/tomoyo-users.lists.osdn.me.0"]
+	path = archives/tomoyo-users.lists.osdn.me.0
+	url = git@github.com:linux-mailinglist-archives/tomoyo-users.lists.osdn.me.0.git
+[submodule "archives/uboot-stm32.st-md-mailman.stormreply.com.0"]
+	path = archives/uboot-stm32.st-md-mailman.stormreply.com.0
+	url = git@github.com:linux-mailinglist-archives/uboot-stm32.st-md-mailman.stormreply.com.0.git
+[submodule "archives/usb-storage.lists.one-eyed-alien.net.0"]
+	path = archives/usb-storage.lists.one-eyed-alien.net.0
+	url = git@github.com:linux-mailinglist-archives/usb-storage.lists.one-eyed-alien.net.0.git
+[submodule "archives/usrp-users.lists.ettus.com.0"]
+	path = archives/usrp-users.lists.ettus.com.0
+	url = git@github.com:linux-mailinglist-archives/usrp-users.lists.ettus.com.0.git
+[submodule "archives/util-linux.vger.kernel.org.0"]
+	path = archives/util-linux.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/util-linux.vger.kernel.org.0.git
+[submodule "archives/v9fs-developer.lists.sourceforge.net.0"]
+	path = archives/v9fs-developer.lists.sourceforge.net.0
+	url = git@github.com:linux-mailinglist-archives/v9fs-developer.lists.sourceforge.net.0.git
+[submodule "archives/virtualization.lists.linux-foundation.org.0"]
+	path = archives/virtualization.lists.linux-foundation.org.0
+	url = git@github.com:linux-mailinglist-archives/virtualization.lists.linux-foundation.org.0.git
+[submodule "archives/xen-devel.lists.xenproject.org.0"]
+	path = archives/xen-devel.lists.xenproject.org.0
+	url = git@github.com:linux-mailinglist-archives/xen-devel.lists.xenproject.org.0.git
