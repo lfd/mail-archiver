@@ -18,37 +18,51 @@
 archives="./archives/"
 index="./index"
 
-gh_group='linux-mailinglist-archives'
-uri_base="git@github.com:${gh_group}/"
+# Check if an old ERROR is pending. Abort in that case.
+if [ -f "ERROR" ]; then
+	echo "Previous error occured. Please check the working directory"
+	exit -1
+fi
 
-gcli="$HOME/.gem/ruby/2.3.0/bin/gcli"
+# Ensure every repo is on master, and not on detached heads.
+git submodule foreach git co master
 
-./archiver.py || exit -1
-git add index
-git commit -m "update index"
+# Let the archiver run. If it fails, reset all archives to their upstream
+# state. This preserves a consistent state in case of errors.
+./archiver.py
+if [ $? -ne 0 ]; then
+	echo "Error during archival process. Reverting changes."
+	git submodule foreach git reset --hard origin/master
+	git checkout index
+	touch ERROR
+	exit -1
+fi
 
-for i in $archives/*; do
-	git -C $i gc
+# Pygit has left fragments, as it won't update the checked-out directories.
+# Reset ALL modules inside archives (including non-submodules) to their master
+for archive in ${archives}/*; do
+	git -C $archive reset --hard
 done
 
-for d_archive in $archives/*; do
+# Get the list of modifies archives (submodules only)
+modified_archives=$(git status --short | grep "M archives" | awk '{ print $2 }')
+
+# Now add the new stuff
+git add index
+git add $modified_archives
+git commit -m "update public inboxes"
+
+for d_archive in $modified_archives; do
 	archive=$(basename $d_archive)
-
-	# Skip ASSORTED.*
-	if [[ $archive = ASSORTED.* ]]; then
-		continue
-	fi
-
 	git="git -C $d_archive"
-	$git remote get-url origin > /dev/null 2>&1
-	if [ $? -eq 0 ]; then
-		$git push
-	else
-		echo Creating $archive
-		uri="${uri_base}${archive}.git"
-		echo $uri
-		$gcli repo create ${gh_group}/$archive > /dev/null
-		$git remote add origin $uri
-		$git push --set-upstream origin master
-	fi
+
+	# Let's GC the repo first
+	$git gc
+
+	# We can easily push. There can not be submodules without a valid
+	# remote. New repositories must be manually created. git status list
+	# repos without a remote as untracked.
+
+	# Note: ASSORTED archives are NOT stored on github.
+	$git push
 done

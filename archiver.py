@@ -125,7 +125,7 @@ class PublicInbox:
     def create(d_repo, shard):
         print('Creating Public Inbox %s Shard %d' % (d_repo, shard))
         directory = '%s.%d' % (d_repo, shard)
-        pygit2.init_repository(directory, bare=True)
+        pygit2.init_repository(directory, bare=False)
 
         return PublicInbox(directory)
 
