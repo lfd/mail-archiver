@@ -51,6 +51,10 @@ modified_archives=$(git status --short | grep "M archives" | awk '{ print $2 }')
 git add index
 git add $modified_archives
 git commit -m "update public inboxes"
+if [ $? -ne 0 ]; then
+	echo "No changes -- Nothing needs to be done."
+	exit 0
+fi
 
 for d_archive in $modified_archives; do
 	archive=$(basename $d_archive)
