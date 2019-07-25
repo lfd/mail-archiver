@@ -571,3 +571,6 @@
 [submodule "archives/clang-built-linux.googlegroups.com.0"]
 	path = archives/clang-built-linux.googlegroups.com.0
 	url = git@github.com:linux-mailinglist-archives/clang-built-linux.googlegroups.com.0.git
+[submodule "archives/wcn36xx.lists.infradead.org.0"]
+	path = archives/wcn36xx.lists.infradead.org.0
+	url = git@github.com:linux-mailinglist-archives/wcn36xx.lists.infradead.org.0.git
