@@ -574,3 +574,6 @@
 [submodule "archives/wcn36xx.lists.infradead.org.0"]
 	path = archives/wcn36xx.lists.infradead.org.0
 	url = git@github.com:linux-mailinglist-archives/wcn36xx.lists.infradead.org.0.git
+[submodule "archives/cip-testing-results.lists.cip-project.org.0"]
+	path = archives/cip-testing-results.lists.cip-project.org.0
+	url = git@github.com:linux-mailinglist-archives/cip-testing-results.lists.cip-project.org.0.git
