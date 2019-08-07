@@ -577,3 +577,6 @@
 [submodule "archives/cip-testing-results.lists.cip-project.org.0"]
 	path = archives/cip-testing-results.lists.cip-project.org.0
 	url = git@github.com:linux-mailinglist-archives/cip-testing-results.lists.cip-project.org.0.git
+[submodule "archives/linux-next.vger.kernel.org.0"]
+	path = archives/linux-next.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-next.vger.kernel.org.0.git
