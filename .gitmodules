@@ -582,7 +582,7 @@
 	url = git@github.com:linux-mailinglist-archives/linux-next.vger.kernel.org.0.git
 [submodule "archives/linux-tip-commits.vger.kernel.org.0"]
 	path = archives/linux-tip-commits.vger.kernel.org.0
-	url = https://github.com/linux-mailinglist-archives/linux-tip-commits.vger.kernel.org.0.git
+	url = git@github.com:linux-mailinglist-archives/linux-tip-commits.vger.kernel.org.0.git
 [submodule "archives/linux-decnet-user.lists.sourceforge.net.0"]
 	path = archives/linux-decnet-user.lists.sourceforge.net.0
 	url = git@github.com:linux-mailinglist-archives/linux-decnet-user.lists.sourceforge.net.0.git
