@@ -586,3 +586,6 @@
 [submodule "archives/linux-decnet-user.lists.sourceforge.net.0"]
 	path = archives/linux-decnet-user.lists.sourceforge.net.0
 	url = git@github.com:linux-mailinglist-archives/linux-decnet-user.lists.sourceforge.net.0.git
+[submodule "archives/pvrusb2.isely.net.0"]
+	path = archives/pvrusb2.isely.net.0
+	url = git@github.com:linux-mailinglist-archives/pvrusb2.isely.net.0.git
