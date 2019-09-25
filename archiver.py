@@ -172,12 +172,14 @@ class PublicInbox:
             author_name = match.group(1)
             author_email = email.utils.parseaddr(mail['reply-to'])[1]
 
+        # Check if we have a crappy author_email
+        if author_email == '' or \
+           True in [x in author_email for x in '<>" ']:
+            author_email = 'UNKNOWN@UNKNOWN.COM'
+
         # Check if author name does not contain any non-special character
         if author_name == '' or not any([x.isalpha() for x in author_name]):
             author_name = author_email
-
-        if author_email == '':
-            author_email = 'UNKNOWN@UNKNOWN.COM'
 
         date = parse_date(mail['Date'])
         time = int(date.timestamp())
