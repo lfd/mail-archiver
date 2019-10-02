@@ -592,3 +592,6 @@
 [submodule "archives/linux-csky.vger.kernel.org.0"]
 	path = archives/linux-csky.vger.kernel.org.0
 	url = git@github.com:linux-mailinglist-archives/linux-csky.vger.kernel.org.0.git
+[submodule "archives/linux-modules.vger.kernel.org.0"]
+	path = archives/linux-modules.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-modules.vger.kernel.org.0.git
