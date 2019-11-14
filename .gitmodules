@@ -598,3 +598,6 @@
 [submodule "archives/legousb-devel.lists.sourceforge.net.0"]
 	path = archives/legousb-devel.lists.sourceforge.net.0
 	url = git@github.com:linux-mailinglist-archives/legousb-devel.lists.sourceforge.net.0.git
+[submodule "archives/linux-spdx.vger.kernel.org.0"]
+	path = archives/linux-spdx.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-spdx.vger.kernel.org.0.git
