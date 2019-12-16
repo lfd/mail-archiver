@@ -601,3 +601,6 @@
 [submodule "archives/linux-spdx.vger.kernel.org.0"]
 	path = archives/linux-spdx.vger.kernel.org.0
 	url = git@github.com:linux-mailinglist-archives/linux-spdx.vger.kernel.org.0.git
+[submodule "archives/io-uring.vger.kernel.org.0"]
+	path = archives/io-uring.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/io-uring.vger.kernel.org.0.git
