@@ -604,3 +604,9 @@
 [submodule "archives/io-uring.vger.kernel.org.0"]
 	path = archives/io-uring.vger.kernel.org.0
 	url = git@github.com:linux-mailinglist-archives/io-uring.vger.kernel.org.0.git
+[submodule "archives/64575.cip-testing-results.lists.cip-project.org.0"]
+	path = archives/64575.cip-testing-results.lists.cip-project.org.0
+	url = git@github.com:linux-mailinglist-archives/64575.cip-testing-results.lists.cip-project.org.0.git
+[submodule "archives/linux-kernel.vger.kernel.org.1"]
+	path = archives/linux-kernel.vger.kernel.org.1
+	url = git@github.com:linux-mailinglist-archives/linux-kernel.vger.kernel.org.1.git
