@@ -613,3 +613,6 @@
 [submodule "archives/codalist.coda.cs.cmu.edu.0"]
 	path = archives/codalist.coda.cs.cmu.edu.0
 	url = git@github.com:linux-mailinglist-archives/codalist.coda.cs.cmu.edu.0.git
+[submodule "archives/linux-x25.vger.kernel.org.0"]
+	path = archives/linux-x25.vger.kernel.org.0
+	url = git@github.com:linux-mailinglist-archives/linux-x25.vger.kernel.org.0.git
