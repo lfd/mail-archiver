@@ -180,6 +180,8 @@ class PublicInbox:
         # Check if author name does not contain any non-special character
         if author_name == '' or not any([x.isalpha() for x in author_name]):
             author_name = author_email
+        # Ensure that there are no brackets
+        author_name = author_name.replace('<', '').replace('>', '')
 
         date = parse_date(mail['Date'])
         time = int(date.timestamp())
