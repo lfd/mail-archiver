@@ -616,3 +616,6 @@
 [submodule "archives/linux-x25.vger.kernel.org.0"]
 	path = archives/linux-x25.vger.kernel.org.0
 	url = git@github.com:linux-mailinglist-archives/linux-x25.vger.kernel.org.0.git
+[submodule "archives/linux-kernel.vger.kernel.org.2"]
+	path = archives/linux-kernel.vger.kernel.org.2
+	url = git@github.com:linux-mailinglist-archives/linux-kernel.vger.kernel.org.2.git
