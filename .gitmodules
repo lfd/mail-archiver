@@ -172,9 +172,6 @@
 [submodule "archives/linux-aspeed.lists.ozlabs.org.0"]
 	path = archives/linux-aspeed.lists.ozlabs.org.0
 	url = git@github.com:linux-mailinglist-archives/linux-aspeed.lists.ozlabs.org.0.git
-[submodule "archives/linux-audit.redhat.com.0"]
-	path = archives/linux-audit.redhat.com.0
-	url = git@github.com:linux-mailinglist-archives/linux-audit.redhat.com.0.git
 [submodule "archives/linux-bcache.vger.kernel.org.0"]
 	path = archives/linux-bcache.vger.kernel.org.0
 	url = git@github.com:linux-mailinglist-archives/linux-bcache.vger.kernel.org.0.git
@@ -622,3 +619,6 @@
 [submodule "archives/cluster-devel.listman.redhat.com.0"]
 	path = archives/cluster-devel.listman.redhat.com.0
 	url = git@github.com:linux-mailinglist-archives/cluster-devel.redhat.com.0.git
+[submodule "archives/linux-audit.listman.redhat.com.0"]
+	path = archives/linux-audit.listman.redhat.com.0
+	url = git@github.com:linux-mailinglist-archives/linux-audit.redhat.com.0.git
