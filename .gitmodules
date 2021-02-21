@@ -184,9 +184,6 @@
 [submodule "archives/linux-btrfs.vger.kernel.org.0"]
 	path = archives/linux-btrfs.vger.kernel.org.0
 	url = git@github.com:linux-mailinglist-archives/linux-btrfs.vger.kernel.org.0.git
-[submodule "archives/linux-cachefs.redhat.com.0"]
-	path = archives/linux-cachefs.redhat.com.0
-	url = git@github.com:linux-mailinglist-archives/linux-cachefs.redhat.com.0.git
 [submodule "archives/linux-can.vger.kernel.org.0"]
 	path = archives/linux-can.vger.kernel.org.0
 	url = git@github.com:linux-mailinglist-archives/linux-can.vger.kernel.org.0.git
@@ -622,3 +619,6 @@
 [submodule "archives/linux-audit.listman.redhat.com.0"]
 	path = archives/linux-audit.listman.redhat.com.0
 	url = git@github.com:linux-mailinglist-archives/linux-audit.redhat.com.0.git
+[submodule "archives/linux-cachefs.listman.redhat.com.0"]
+	path = archives/linux-cachefs.listman.redhat.com.0
+	url = git@github.com:linux-mailinglist-archives/linux-cachefs.redhat.com.0.git
