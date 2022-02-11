@@ -628,3 +628,6 @@
 [submodule "archives/ntb.lists.linux.dev.0"]
 	path = archives/ntb.lists.linux.dev.0
 	url = git@github.com:linux-mailinglist-archives/ntb.lists.linux.dev.0.git
+[submodule "archives/nvdimm.lists.linux.dev.0"]
+	path = archives/nvdimm.lists.linux.dev.0
+	url = git@github.com:linux-mailinglist-archives/nvdimm.lists.linux.dev.0.git
