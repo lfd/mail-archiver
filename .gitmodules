@@ -625,3 +625,6 @@
 [submodule "archives/linux-kernel.vger.kernel.org.3"]
 	path = archives/linux-kernel.vger.kernel.org.3
 	url = git@github.com:linux-mailinglist-archives/linux-kernel.vger.kernel.org.3.git
+[submodule "archives/ntb.lists.linux.dev.0"]
+	path = archives/ntb.lists.linux.dev.0
+	url = git@github.com:linux-mailinglist-archives/ntb.lists.linux.dev.0.git
