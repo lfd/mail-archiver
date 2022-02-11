@@ -637,3 +637,6 @@
 [submodule "archives/blinux-list.redhat.com.0"]
 	path = archives/blinux-list.redhat.com.0
 	url = git@github.com:linux-mailinglist-archives/blinux-list.redhat.com.0.git
+[submodule "archives/cluster-devel.redhat.com.0"]
+	path = archives/cluster-devel.redhat.com.0
+	url = git@github.com:linux-mailinglist-archives/cluster-devel.redhat.com.0.git
