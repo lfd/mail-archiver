@@ -622,3 +622,6 @@
 [submodule "archives/linux-cachefs.listman.redhat.com.0"]
 	path = archives/linux-cachefs.listman.redhat.com.0
 	url = git@github.com:linux-mailinglist-archives/linux-cachefs.redhat.com.0.git
+[submodule "archives/linux-kernel.vger.kernel.org.3"]
+	path = archives/linux-kernel.vger.kernel.org.3
+	url = git@github.com:linux-mailinglist-archives/linux-kernel.vger.kernel.org.3.git
