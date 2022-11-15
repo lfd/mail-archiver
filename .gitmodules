@@ -646,3 +646,6 @@
 [submodule "archives/ksummit.lists.linux.dev.0"]
 	path = archives/ksummit.lists.linux.dev.0
 	url = git@github.com:linux-mailinglist-archives/ksummit.lists.linux.dev.0.git
+[submodule "archives/linux-kernel.vger.kernel.org.4"]
+	path = archives/linux-kernel.vger.kernel.org.4
+	url = git@github.com:linux-mailinglist-archives/linux-kernel.vger.kernel.org.4.git
