@@ -610,18 +610,6 @@
 [submodule "archives/soc.lore.kernel.org.0"]
 	path = archives/soc.lore.kernel.org.0
 	url = git@github.com:linux-mailinglist-archives/soc.lore.kernel.org.0.git
-[submodule "archives/blinux-list.listman.redhat.com.0"]
-	path = archives/blinux-list.listman.redhat.com.0
-	url = git@github.com:linux-mailinglist-archives/blinux-list.redhat.com.0.git
-[submodule "archives/cluster-devel.listman.redhat.com.0"]
-	path = archives/cluster-devel.listman.redhat.com.0
-	url = git@github.com:linux-mailinglist-archives/cluster-devel.redhat.com.0.git
-[submodule "archives/linux-audit.listman.redhat.com.0"]
-	path = archives/linux-audit.listman.redhat.com.0
-	url = git@github.com:linux-mailinglist-archives/linux-audit.redhat.com.0.git
-[submodule "archives/linux-cachefs.listman.redhat.com.0"]
-	path = archives/linux-cachefs.listman.redhat.com.0
-	url = git@github.com:linux-mailinglist-archives/linux-cachefs.redhat.com.0.git
 [submodule "archives/linux-kernel.vger.kernel.org.3"]
 	path = archives/linux-kernel.vger.kernel.org.3
 	url = git@github.com:linux-mailinglist-archives/linux-kernel.vger.kernel.org.3.git
