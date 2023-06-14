@@ -640,3 +640,6 @@
 [submodule "archives/linux-kernel.vger.kernel.org.4"]
 	path = archives/linux-kernel.vger.kernel.org.4
 	url = git@github.com:linux-mailinglist-archives/linux-kernel.vger.kernel.org.4.git
+[submodule "archives/stable.vger.kernel.org.1"]
+	path = archives/stable.vger.kernel.org.1
+	url = git@github.com:linux-mailinglist-archives/stable.vger.kernel.org.1.git
