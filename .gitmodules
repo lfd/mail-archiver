@@ -493,6 +493,9 @@
 [submodule "archives/qemu-devel.nongnu.org.0"]
 	path = archives/qemu-devel.nongnu.org.0
 	url = git@github.com:linux-mailinglist-archives/qemu-devel.nongnu.org.0.git
+[submodule "archives/qemu-devel.nongnu.org.1"]
+	path = archives/qemu-devel.nongnu.org.1
+	url = git@github.com:linux-mailinglist-archives/qemu-devel.nongnu.org.1.git
 [submodule "archives/reiserfs-devel.vger.kernel.org.0"]
 	path = archives/reiserfs-devel.vger.kernel.org.0
 	url = git@github.com:linux-mailinglist-archives/reiserfs-devel.vger.kernel.org.0.git
