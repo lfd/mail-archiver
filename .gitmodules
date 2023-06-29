@@ -454,6 +454,9 @@
 [submodule "archives/netdev.vger.kernel.org.0"]
 	path = archives/netdev.vger.kernel.org.0
 	url = git@github.com:linux-mailinglist-archives/netdev.vger.kernel.org.0.git
+[submodule "archives/netdev.vger.kernel.org.1"]
+	path = archives/netdev.vger.kernel.org.1
+	url = git@github.com:linux-mailinglist-archives/netdev.vger.kernel.org.1.git
 [submodule "archives/netem.lists.linux-foundation.org.0"]
 	path = archives/netem.lists.linux-foundation.org.0
 	url = git@github.com:linux-mailinglist-archives/netem.lists.linux-foundation.org.0.git
