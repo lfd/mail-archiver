@@ -75,6 +75,9 @@ def parse_date(date):
             ret = datetime.datetime.combine(datetime.date.fromtimestamp(0),
                                             datetime.datetime.min.time())
 
+    if not ret:
+        return dateparser.parse('1970-01-01 00:00:00 +0100')
+
     if not ret.tzinfo:
         ret = pytz.utc.localize(ret)
 
