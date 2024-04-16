@@ -561,7 +561,7 @@
 	url = git@github.com:linux-mailinglist-archives/xen-devel.lists.xenproject.org.0.git
 [submodule "archives/ASSORTED.0"]
 	path = archives/ASSORTED.0
-	url = git@gitlab.oth-regensburg.de:IM/lfd/linux-mailinglist-archives/assorted.0.git
+	url = git@gitlab.oth-regensburg.de:IM/lfd/projects/linux-mailinglist-archives/assorted.0.git
 [submodule "archives/clang-built-linux.googlegroups.com.0"]
 	path = archives/clang-built-linux.googlegroups.com.0
 	url = git@github.com:linux-mailinglist-archives/clang-built-linux.googlegroups.com.0.git
