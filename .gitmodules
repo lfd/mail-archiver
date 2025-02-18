@@ -654,4 +654,4 @@
 	url = git@github.com:linux-mailinglist-archives/devicetree.vger.kernel.org.1.git
 [submodule "archives/linux-kernel.vger.kernel.org.6"]
 	path = archives/linux-kernel.vger.kernel.org.6
-	url = https://github.com/linux-mailinglist-archives/linux-kernel.vger.kernel.org.6
+	url = git@github.com:linux-mailinglist-archives/linux-kernel.vger.kernel.org.6.git
