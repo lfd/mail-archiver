@@ -208,7 +208,7 @@ class PublicInbox:
         tree = treebuilder.write()
 
         try:
-            parents = [self.repo.head.target.hex]
+            parents = [self.repo.head.target]
         except:
             parents = []
 
@@ -217,7 +217,7 @@ class PublicInbox:
 
         self.size += 1
 
-        return chash.hex
+        return chash
 
 
 d_maildirs = find_dirs(d_maildir)
